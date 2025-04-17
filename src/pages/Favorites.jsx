@@ -17,7 +17,7 @@ export default function Favorite() {
 
   return (
     <div className="container">
-      <h2>❤️ Favorites</h2>
+      <h2> Favorites</h2>
       {favorites.length === 0 ? (
         <p>Favoritə əlavə edilmiş məhsul yoxdur.</p>
       ) : (
@@ -32,7 +32,7 @@ export default function Favorite() {
               <h4>{item.title.slice(0, 40)}...</h4>
               <p>${item.price}</p>
               <button onClick={() => remove(item.id)} className="btn-remove">
-                ❌ Remove from Favorites
+                  Remove from Favorites
               </button>
             </div>
           ))}

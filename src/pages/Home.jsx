@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <div className="container">
-      <h2 style={{ marginBottom: '1rem' }}>🛍️ New Arrivals</h2>
+      <h2 style={{ marginBottom: '1rem' }}> New Arrivals</h2>
       <div className="grid">
         {products.map(product => (
           <ProductCard key={product.id} product={product} />

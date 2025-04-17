@@ -34,7 +34,7 @@ export default function Basket() {
 
   return (
     <div className="container">
-      <h2>🧺 Basket</h2>
+      <h2> Basket</h2>
       <div className="grid">
         {basket.map(item => (
           <div key={item.id} className="card">
